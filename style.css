@@ -51,7 +51,7 @@ body {
 }
 .input::placeholder {
     color: var(--placeholders);
-    font-size: 14px;
+    font-size: 16px;
 }
 form [type="submit"]{
     display: block;
@@ -70,7 +70,7 @@ a {
     text-decoration: none;
     margin-left: 10px;
 }
-@media(min-width: 320px){
+@media(max-width: 320px){
     form [type="submit"]{
         font-size: 16px;
     }
@@ -79,10 +79,5 @@ a {
     }
     a {
         margin-left: 9px;
-    }
-}
-@media(min-width: 375px){
-    a {
-        margin-left: 5px;
     }
 }
